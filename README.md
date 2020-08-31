@@ -2,6 +2,10 @@
 
 Organize configs in a clean way.
 
+## TODO
+
+- [ ] Support parsing configs from remote key value store, such as ZooKeeper
+
 ## Getting Started
 
 1. Install the library.
