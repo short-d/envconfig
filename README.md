@@ -17,17 +17,17 @@ Organize configs in a clean way.
    
    envConfig := envconfig.NewDefault()
 
-	config := struct {
-		DBHost     string `env:"DB_HOST" default:"localhost"`
-		DBPort     int    `env:"DB_PORT" default:"5432"`
-		DBUser     string `env:"DB_USER" default:"postgres"`
-		DBPassword string `env:"DB_PASSWORD" default:"password"`
-		DBName     string `env:"DB_NAME" default:"sampleapp"`
-	}{}
-	err := envConfig.ParseConfigFromEnv(&config)
-	if err != nil {
-		panic(err)
-	}
+   config := struct {
+	DBHost     string `env:"DB_HOST" default:"localhost"`
+	DBPort     int    `env:"DB_PORT" default:"5432"`
+	DBUser     string `env:"DB_USER" default:"postgres"`
+	DBPassword string `env:"DB_PASSWORD" default:"password"`
+	DBName     string `env:"DB_NAME" default:"sampleapp"`
+   }{}
+   err := envConfig.ParseConfigFromEnv(&config)
+   if err != nil {
+	panic(err)
+   }
    ```
 
 ## License
