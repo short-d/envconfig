@@ -4,7 +4,7 @@ Organize configs in a clean way.
 
 ## TODO
 
-- [ ] Support parsing configs from remote key value store, such as ZooKeeper
+- [ ] Support parsing configs from remote key value store, such as ZooKeeper or Redis
 
 ## Getting Started
 
